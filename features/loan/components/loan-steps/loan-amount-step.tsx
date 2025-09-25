@@ -1,9 +1,9 @@
 "use client"
 
 import { DollarSign } from "lucide-react"
-import { Button } from "@/features/shared/ui/button"
-import { Card, CardContent, CardHeader, CardTitle } from "@/features/shared/ui/card"
-import { Alert, AlertDescription } from "@/features/shared/ui/alert"
+import { Button } from "@/shared/ui/button"
+import { Card, CardContent, CardHeader, CardTitle } from "@/shared/ui/card"
+import { Alert, AlertDescription } from "@/shared/ui/alert"
 
 interface LoanAmountStepProps {
   data: any

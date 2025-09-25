@@ -1,5 +1,5 @@
 import { CreditCard, Package, Phone } from "lucide-react"
-import { Card, CardContent } from "@/features/shared/ui/card"
+import { Card, CardContent } from "@/shared/ui/card"
 import Link from "next/link"
 
 export function QuickActions() {

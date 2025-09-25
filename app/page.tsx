@@ -1,4 +1,4 @@
-import { BottomNavigation } from "@/features/shared/components/bottom-navigation"
+import { BottomNavigation } from "@/shared/components/bottom-navigation"
 import { BannerCarousel } from "@/features/home/components/banner-carousel"
 import { QuickActions } from "@/features/home/components/quick-actions"
 import { PrivilegesSection } from "@/features/home/components/privileges-section"

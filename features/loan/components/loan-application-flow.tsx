@@ -7,7 +7,7 @@ import { IdCardStep } from "./loan-steps/id-card-step"
 import { LoanAmountStep } from "./loan-steps/loan-amount-step"
 import { PhoneVerificationStep } from "./loan-steps/phone-verification-step"
 import { PendingStep } from "./loan-steps/pending-step"
-import { Progress } from "@/features/shared/ui/progress"
+import { Progress } from "@/shared/ui/progress"
 
 // Mock user authentication status
 const isLoggedIn = false // Change this to test different flows

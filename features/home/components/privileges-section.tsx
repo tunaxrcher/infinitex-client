@@ -1,5 +1,5 @@
-import { Card, CardContent } from "@/features/shared/ui/card"
-import { Badge } from "@/features/shared/ui/badge"
+import { Card, CardContent } from "@/shared/ui/card"
+import { Badge } from "@/shared/ui/badge"
 import { ChevronRight } from "lucide-react"
 import Image from "next/image"
 

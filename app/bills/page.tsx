@@ -1,5 +1,5 @@
-import { MobileHeader } from "@/features/shared/components/mobile-header"
-import { BottomNavigation } from "@/features/shared/components/bottom-navigation"
+import { MobileHeader } from "@/shared/components/mobile-header"
+import { BottomNavigation } from "@/shared/components/bottom-navigation"
 import { BillsList } from "@/features/bills/components/bills-list"
 
 export default function BillsPage() {

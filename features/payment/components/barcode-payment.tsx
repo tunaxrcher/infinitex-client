@@ -2,9 +2,9 @@
 
 import { useState } from "react"
 import { Barcode, Copy, CheckCircle, MapPin, Clock } from "lucide-react"
-import { Card, CardContent, CardHeader, CardTitle } from "@/features/shared/ui/card"
-import { Button } from "@/features/shared/ui/button"
-import { Badge } from "@/features/shared/ui/badge"
+import { Card, CardContent, CardHeader, CardTitle } from "@/shared/ui/card"
+import { Button } from "@/shared/ui/button"
+import { Badge } from "@/shared/ui/badge"
 
 const paymentData = {
   amount: 2000.5,

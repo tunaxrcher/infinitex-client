@@ -4,11 +4,11 @@ import type React from "react"
 
 import { useState, useRef } from "react"
 import { Phone, Shield, Eye, EyeOff } from "lucide-react"
-import { Button } from "@/features/shared/ui/button"
-import { Card, CardContent, CardHeader, CardTitle } from "@/features/shared/ui/card"
-import { Input } from "@/features/shared/ui/input"
-import { Label } from "@/features/shared/ui/label"
-import { Dialog, DialogContent, DialogHeader, DialogTitle } from "@/features/shared/ui/dialog"
+import { Button } from "@/shared/ui/button"
+import { Card, CardContent, CardHeader, CardTitle } from "@/shared/ui/card"
+import { Input } from "@/shared/ui/input"
+import { Label } from "@/shared/ui/label"
+import { Dialog, DialogContent, DialogHeader, DialogTitle } from "@/shared/ui/dialog"
 
 interface PhoneVerificationStepProps {
   data: any

@@ -1,10 +1,10 @@
 "use client"
 
 import { Calendar, CreditCard, TrendingUp, AlertCircle, ChevronDown, ChevronUp } from "lucide-react"
-import { Card, CardContent, CardHeader, CardTitle } from "@/features/shared/ui/card"
-import { Badge } from "@/features/shared/ui/badge"
-import { Button } from "@/features/shared/ui/button"
-import { Progress } from "@/features/shared/ui/progress"
+import { Card, CardContent, CardHeader, CardTitle } from "@/shared/ui/card"
+import { Badge } from "@/shared/ui/badge"
+import { Button } from "@/shared/ui/button"
+import { Progress } from "@/shared/ui/progress"
 import Link from "next/link"
 import { useState } from "react"
 

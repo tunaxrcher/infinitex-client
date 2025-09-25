@@ -1,7 +1,7 @@
 "use client"
 
 import { ArrowLeft } from "lucide-react"
-import { Button } from "@/features/shared/ui/button"
+import { Button } from "@/shared/ui/button"
 import { useRouter } from "next/navigation"
 
 interface MobileHeaderProps {
