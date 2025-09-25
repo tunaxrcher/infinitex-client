@@ -1,6 +1,6 @@
 // src/shared/repositories/baseRepository.ts
 
-import { PaginatedResponse } from "@/shared/types"
+import { PaginatedResponse } from "@src/shared/types"
 
 type ExtractModelType<T> = T extends { findMany: (...args: any[]) => Promise<infer U> } ? (U extends Array<infer V> ? V : never) : never
 

@@ -1,7 +1,7 @@
-import { MobileHeader } from "@/shared/components/mobile-header"
-import { BottomNavigation } from "@/shared/components/bottom-navigation"
-import { LoansList } from "@/features/products/components/loans-list"
-import { FloatingActionButton } from "@/shared/components/floating-action-button"
+import { MobileHeader } from "@src/shared/components/mobile-header"
+import { BottomNavigation } from "@src/shared/components/bottom-navigation"
+import { LoansList } from "@src/features/products/components/loans-list"
+import { FloatingActionButton } from "@src/shared/components/floating-action-button"
 
 export default function ProductsPage() {
   return (

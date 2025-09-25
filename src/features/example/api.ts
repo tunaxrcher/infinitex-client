@@ -1,6 +1,6 @@
 // src/features/[...feature]/api.ts
 
-import { api } from "@/shared/lib/api-client"
+import { api } from "@src/shared/lib/api-client"
 import { featureService } from "./services/server"
 
 export const entityApi = {

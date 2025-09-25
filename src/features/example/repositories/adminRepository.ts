@@ -1,7 +1,7 @@
 // src/features/[...feature]/repositories/adminRepository.ts
 
-import { BaseRepository } from "@/shared/repositories/baseRepository"
-import { prisma } from "@/shared/lib/db"
+import { BaseRepository } from "@src/shared/repositories/baseRepository"
+import { prisma } from "@src/shared/lib/db"
 
 export class AdminRepository extends BaseRepository<typeof prisma.admin> {}
 

@@ -1,6 +1,6 @@
 // src/shared/lib/errors.ts
 
-import { ValidationErrorDetail } from "@/shared/types"
+import { ValidationErrorDetail } from "@src/shared/types"
 
 export class ApiError extends Error {
   public statusCode: number

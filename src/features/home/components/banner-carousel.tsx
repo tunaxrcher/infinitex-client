@@ -1,7 +1,7 @@
 "use client"
 
 import { useState, useEffect } from "react"
-import { Card } from "@/shared/ui/card"
+import { Card } from "@src/shared/ui/card"
 import Image from "next/image"
 
 const banners = [

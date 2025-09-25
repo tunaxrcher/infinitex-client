@@ -13,10 +13,10 @@ import {
   ChevronRight,
   Coins,
 } from "lucide-react"
-import { Card, CardContent } from "@/shared/ui/card"
-import { Button } from "@/shared/ui/button"
-import { Badge } from "@/shared/ui/badge"
-import { Switch } from "@/shared/ui/switch"
+import { Card, CardContent } from "@src/shared/ui/card"
+import { Button } from "@src/shared/ui/button"
+import { Badge } from "@src/shared/ui/badge"
+import { Switch } from "@src/shared/ui/switch"
 import Link from "next/link"
 import { useTheme } from "next-themes"
 

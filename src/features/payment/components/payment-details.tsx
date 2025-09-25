@@ -1,7 +1,7 @@
 import { FileText, Calendar, CreditCard, Info } from "lucide-react"
-import { Card, CardContent, CardHeader, CardTitle } from "@/shared/ui/card"
-import { Button } from "@/shared/ui/button"
-import { Badge } from "@/shared/ui/badge"
+import { Card, CardContent, CardHeader, CardTitle } from "@src/shared/ui/card"
+import { Button } from "@src/shared/ui/button"
+import { Badge } from "@src/shared/ui/badge"
 import Link from "next/link"
 
 const paymentDetails = {

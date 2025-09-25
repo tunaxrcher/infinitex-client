@@ -1,6 +1,6 @@
-import { MobileHeader } from "@/shared/components/mobile-header"
-import { BottomNavigation } from "@/shared/components/bottom-navigation"
-import { PaymentMethodSelection } from "@/features/payment/components/payment-method-selection"
+import { MobileHeader } from "@src/shared/components/mobile-header"
+import { BottomNavigation } from "@src/shared/components/bottom-navigation"
+import { PaymentMethodSelection } from "@src/features/payment/components/payment-method-selection"
 
 export default function PaymentPage() {
   return (

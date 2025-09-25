@@ -4,11 +4,11 @@ import type React from "react"
 
 import { useState } from "react"
 import { Upload, Camera, FileText, X } from "lucide-react"
-import { Button } from "@/shared/ui/button"
-import { Card, CardContent, CardHeader, CardTitle } from "@/shared/ui/card"
-import { Input } from "@/shared/ui/input"
-import { Label } from "@/shared/ui/label"
-import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/shared/ui/select"
+import { Button } from "@src/shared/ui/button"
+import { Card, CardContent, CardHeader, CardTitle } from "@src/shared/ui/card"
+import { Input } from "@src/shared/ui/input"
+import { Label } from "@src/shared/ui/label"
+import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@src/shared/ui/select"
 
 interface DocumentUploadStepProps {
   data: any

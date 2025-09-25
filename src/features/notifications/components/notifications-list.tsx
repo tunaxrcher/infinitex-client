@@ -1,8 +1,8 @@
 import { Bell, CheckCircle, AlertTriangle, Gift, CreditCard, FileCheck, Megaphone } from "lucide-react"
-import { Card, CardContent } from "@/shared/ui/card"
-import { Badge } from "@/shared/ui/badge"
-import { Button } from "@/shared/ui/button"
-import { cn } from "@/shared/lib/utils"
+import { Card, CardContent } from "@src/shared/ui/card"
+import { Badge } from "@src/shared/ui/badge"
+import { Button } from "@src/shared/ui/button"
+import { cn } from "@src/shared/lib/utils"
 
 const notifications = [
   {

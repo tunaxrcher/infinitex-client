@@ -1,6 +1,6 @@
-import { MobileHeader } from "@/shared/components/mobile-header"
-import { BottomNavigation } from "@/shared/components/bottom-navigation"
-import { NotificationsList } from "@/features/notifications/components/notifications-list"
+import { MobileHeader } from "@src/shared/components/mobile-header"
+import { BottomNavigation } from "@src/shared/components/bottom-navigation"
+import { NotificationsList } from "@src/features/notifications/components/notifications-list"
 
 export default function NotificationsPage() {
   return (

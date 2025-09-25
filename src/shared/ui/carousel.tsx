@@ -6,8 +6,8 @@ import useEmblaCarousel, {
 } from 'embla-carousel-react'
 import { ArrowLeft, ArrowRight } from 'lucide-react'
 
-import { cn } from '@/features/shared/lib/utils'
-import { Button } from '@/features/shared/ui/button'
+import { cn } from '@src/features/shared/lib/utils'
+import { Button } from '@src/features/shared/ui/button'
 
 type CarouselApi = UseEmblaCarouselType[1]
 type UseCarouselParameters = Parameters<typeof useEmblaCarousel>

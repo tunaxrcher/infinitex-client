@@ -1,9 +1,9 @@
 "use client"
 
 import { CheckCircle, Home, DollarSign } from "lucide-react"
-import { Button } from "@/shared/ui/button"
-import { Card, CardContent, CardHeader, CardTitle } from "@/shared/ui/card"
-import { Badge } from "@/shared/ui/badge"
+import { Button } from "@src/shared/ui/button"
+import { Card, CardContent, CardHeader, CardTitle } from "@src/shared/ui/card"
+import { Badge } from "@src/shared/ui/badge"
 
 interface ReviewStepProps {
   data: any

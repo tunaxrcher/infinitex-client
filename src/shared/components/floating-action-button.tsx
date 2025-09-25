@@ -1,5 +1,5 @@
 import { Plus } from "lucide-react"
-import { Button } from "@/shared/ui/button"
+import { Button } from "@src/shared/ui/button"
 import Link from "next/link"
 
 export function FloatingActionButton() {

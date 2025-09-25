@@ -3,9 +3,9 @@
 import type React from "react"
 import { useState } from "react"
 import { Upload, Camera, FileText, X, ImageIcon } from "lucide-react"
-import { Button } from "@/shared/ui/button"
-import { Card, CardContent, CardHeader, CardTitle } from "@/shared/ui/card"
-import { Label } from "@/shared/ui/label"
+import { Button } from "@src/shared/ui/button"
+import { Card, CardContent, CardHeader, CardTitle } from "@src/shared/ui/card"
+import { Label } from "@src/shared/ui/label"
 
 interface SupportingImagesStepProps {
   data: any
