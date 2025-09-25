@@ -1,7 +1,7 @@
 "use client"
-import { MobileHeader } from "@/components/mobile-header"
-import { BottomNavigation } from "@/components/bottom-navigation"
-import { LoanApplicationFlow } from "@/components/loan-application-flow"
+import { MobileHeader } from "@/features/shared/components/mobile-header"
+import { BottomNavigation } from "@/features/shared/components/bottom-navigation"
+import { LoanApplicationFlow } from "@/features/loan/components/loan-application-flow"
 
 export default function ApplyPage() {
   return (

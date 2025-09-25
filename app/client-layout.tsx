@@ -3,7 +3,7 @@
 import type React from "react"
 import { useSearchParams } from "next/navigation"
 import { Suspense } from "react"
-import { ThemeProvider } from "@/components/theme-provider"
+import { ThemeProvider } from "@/features/shared/components/theme-provider"
 
 export default function ClientLayout({
   children,

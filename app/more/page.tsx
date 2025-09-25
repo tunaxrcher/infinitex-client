@@ -1,6 +1,6 @@
-import { MobileHeader } from "@/components/mobile-header"
-import { BottomNavigation } from "@/components/bottom-navigation"
-import { MoreMenuList } from "@/components/more-menu-list"
+import { MobileHeader } from "@/features/shared/components/mobile-header"
+import { BottomNavigation } from "@/features/shared/components/bottom-navigation"
+import { MoreMenuList } from "@/features/more/components/more-menu-list"
 
 export default function MorePage() {
   return (

@@ -1,6 +1,6 @@
-import { MobileHeader } from "@/components/mobile-header"
-import { BottomNavigation } from "@/components/bottom-navigation"
-import { BarcodePayment } from "@/components/barcode-payment"
+import { MobileHeader } from "@/features/shared/components/mobile-header"
+import { BottomNavigation } from "@/features/shared/components/bottom-navigation"
+import { BarcodePayment } from "@/features/payment/components/barcode-payment"
 
 export default function BarcodePaymentPage() {
   return (

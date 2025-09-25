@@ -1,6 +1,6 @@
-import { MobileHeader } from "@/components/mobile-header"
-import { BottomNavigation } from "@/components/bottom-navigation"
-import { QRPayment } from "@/components/qr-payment"
+import { MobileHeader } from "@/features/shared/components/mobile-header"
+import { BottomNavigation } from "@/features/shared/components/bottom-navigation"
+import { QRPayment } from "@/features/payment/components/qr-payment"
 
 export default function QRPaymentPage() {
   return (

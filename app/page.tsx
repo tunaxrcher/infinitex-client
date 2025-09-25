@@ -1,7 +1,7 @@
-import { BottomNavigation } from "@/components/bottom-navigation"
-import { BannerCarousel } from "@/components/banner-carousel"
-import { QuickActions } from "@/components/quick-actions"
-import { PrivilegesSection } from "@/components/privileges-section"
+import { BottomNavigation } from "@/features/shared/components/bottom-navigation"
+import { BannerCarousel } from "@/features/home/components/banner-carousel"
+import { QuickActions } from "@/features/home/components/quick-actions"
+import { PrivilegesSection } from "@/features/home/components/privileges-section"
 
 export default function HomePage() {
   return (

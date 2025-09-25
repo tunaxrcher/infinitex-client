@@ -1,12 +1,12 @@
 "use client"
 import { FileText, CreditCard, History } from "lucide-react"
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
-import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
-import { Badge } from "@/components/ui/badge"
-import { Progress } from "@/components/ui/progress"
+import { Card, CardContent, CardHeader, CardTitle } from "@/features/shared/ui/card"
+import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/features/shared/ui/tabs"
+import { Badge } from "@/features/shared/ui/badge"
+import { Progress } from "@/features/shared/ui/progress"
 import { useParams } from "next/navigation"
-import { MobileHeader } from "@/components/mobile-header"
-import { BottomNavigation } from "@/components/bottom-navigation"
+import { MobileHeader } from "@/features/shared/components/mobile-header"
+import { BottomNavigation } from "@/features/shared/components/bottom-navigation"
 
 // Mock data - in real app this would come from API
 const loanDetails = {
